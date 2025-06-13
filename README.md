@@ -35,7 +35,7 @@
 
 ## Run application
 1. Run the server
-   Execute the script `new_server_2.py` to start the segmentation server:
+   Execute the script `new_server_2.py` to start the server:
    ```bash
    python new_server_2.py
 2. Open Android Studio  
