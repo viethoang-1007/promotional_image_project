@@ -27,4 +27,4 @@
   ➤ Resize the images and masks in the dataset to **512 x 512** resolution.
   
 - `mask_binary.py`  
-  ➤ Convert the resized masks to **binary masks** for use in segmentation.
+  ➤ Convert the resized masks to **binary masks** for use in training Deeplabv3+ model.
