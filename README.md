@@ -48,3 +48,6 @@
 6. Run the App:  
    - Connect your Android phone via USB (with USB debugging enabled), or run an emulator.  
    - Click Run or press Shift + F10 to build and launch the app.
+
+## Demo Video
+The full demo is available at the link: https://viethoang-1007.github.io/promotional_image_project/
