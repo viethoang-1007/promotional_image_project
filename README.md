@@ -29,3 +29,9 @@
   
 - `mask_binary.py`  
   ➤ Convert the resized masks to **binary masks** for use in training Deeplabv3+ model.
+
+- `fine_tuned_deeplabv3+.py`  
+  ➤ Script for fine-tuning the DeepLabV3+ model on the processed dataset.
+
+## Run application
+1. Run the server
