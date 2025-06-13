@@ -37,10 +37,10 @@
 1. Run the server
    Execute the script `new_server_2.py` to start the segmentation server:
    ```bash
-   python new_server_2.py```
+   python new_server_2.py
 3. Open Android Studio
 4. Open project:
-   Navigate to food_picture_editing_app/MyApplication.
+   Navigate to `food_picture_editing_app/MyApplication`.
 5. Gradle Sync:
    Let Android Studio sync and download any required dependencies.
 6. Configure API endpoint in SegmentApi.kt:
