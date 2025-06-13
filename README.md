@@ -38,13 +38,13 @@
    Execute the script `new_server_2.py` to start the segmentation server:
    ```bash
    python new_server_2.py
-3. Open Android Studio  
-4. Open project:  
+2. Open Android Studio  
+3. Open project:  
    Navigate to `food_picture_editing_app/MyApplication`.
-5. Gradle Sync:  
+4. Gradle Sync:  
    Let Android Studio sync and download any required dependencies.
-6. Configure API endpoint in SegmentApi.kt:  
+5. Configure API endpoint in SegmentApi.kt:  
    Open SegmentApi.kt and change the base URL to match PC’s IP address.
-7. Run the App:  
-   Connect your Android phone via USB (with USB debugging enabled), or run an emulator.  
-   Click Run or press Shift + F10 to build and launch the app.
+6. Run the App:  
+   - Connect your Android phone via USB (with USB debugging enabled), or run an emulator.  
+   - Click Run or press Shift + F10 to build and launch the app.
