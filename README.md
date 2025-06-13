@@ -1,4 +1,5 @@
-## The project structure:
+# Development of AI Image Editing Solution for Restaurant Marketing
+## The project structure
 .
 ├── dataset
 │ ├── original_dataset
@@ -13,8 +14,17 @@
 ├── deeplabv3_resnet101_epoch25.pth
 ├── fine_tuned_deeplabv3+.py
 ├── new_server_2.py
-- Download dataset folder:   https://drive.google.com/file/d/1DLY2i6yCQAjwhEeOVg7WWZ6ylj03JLZy/view?usp=sharing.
-- Download deeplabv3_resnet101_epoch25.pth:   https://drive.google.com/file/d/10SJCnhBSUj46INFg2wz1CiBQD0D1HYdK/view?usp=sharing.
-- in the process_dataset_code:
-    + use resized_image to resize the image and mask in dataset into 512 x 512
 
+## Download link
+- **Dataset folder**
+  [Google Drive - Dataset]  (https://drive.google.com/file/d/1DLY2i6yCQAjwhEeOVg7WWZ6ylj03JLZy/view?usp=sharing)
+  
+- **Trained DeepLabV3+ model** (deeplabv3_resnet101_epoch25.pth)
+  [Google Drive - Model] (https://drive.google.com/file/d/10SJCnhBSUj46INFg2wz1CiBQD0D1HYdK/view?usp=sharing)
+  
+## Processing Scriptsin the process_dataset_code:
+- `resize_image.py`  
+  ➤ Resize the images and masks in the dataset to **512 x 512** resolution.
+  
+- `mask_binary.py`  
+  ➤ Convert the resized masks to **binary masks** for use in segmentation.
