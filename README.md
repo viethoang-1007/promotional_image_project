@@ -22,7 +22,7 @@
 - **Trained DeepLabV3+ model** (deeplabv3_resnet101_epoch25.pth)
   [Google Drive - Model] (https://drive.google.com/file/d/10SJCnhBSUj46INFg2wz1CiBQD0D1HYdK/view?usp=sharing)
   
-## Processing Scriptsin the process_dataset_code:
+## Processing Scripts
 - `resize_image.py`  
   ➤ Resize the images and masks in the dataset to **512 x 512** resolution.
   
