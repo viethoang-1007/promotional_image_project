@@ -1,6 +1,6 @@
 # Development of AI Image Editing Solution for Restaurant Marketing
 ## The project structure
-.
+'''
 ├── dataset
 │ ├── original_dataset
 │ └── processed_dataset
@@ -14,6 +14,7 @@
 ├── deeplabv3_resnet101_epoch25.pth
 ├── fine_tuned_deeplabv3+.py
 ├── new_server_2.py
+'''
 
 ## Download link
 - **Dataset folder**
